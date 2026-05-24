@@ -1,0 +1,76 @@
+body {
+    background-color: #d9f9ff;
+    color: #535353;
+    padding: 2rem;
+}
+
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2em;
+    margin-bottom: 2rem;
+}
+
+.quadro-kanban{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.coluna-kanban1{
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: #fddede;
+    border-top: 4px solid #ff6b6b;
+
+}
+
+.coluna-kanban2{
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    background-color: #fcf8d2;
+    border-top: 4px solid #feca57;
+}
+
+.coluna-kanban3{
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    background-color: #cdecff;
+    border-top:4px solid #1dd1a1;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+.btn-adicionar{
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 2em;
+}
